@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bimbel AKSARA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#beranda" aria-label="Bimbel AKSARA, Beranda">
+        <span class="brand-mark" aria-hidden="true">
+<img src="images/logo-bimbel.png" alt="">
+
+        </span>
+        <span class="brand-name">Bimbel AKSARA</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="main-navigation">
+        <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <nav class="main-navigation" id="main-navigation" aria-label="Navigasi utama">
+        <a class="nav-link is-active" href="#beranda" aria-current="page">Beranda</a>
+        <a class="nav-link" href="#tentang">Tentang</a>
+        <a class="nav-link" href="#jadwal">Jadwal</a>
+        <a class="nav-link" href="#perkembangan">Perkembangan Siswa</a>
+        <a class="nav-link" href="#kontak">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero" id="beranda" aria-labelledby="hero-title">
+      <h1 id="hero-title">AKSARA</h1>
+      <p>Tempat belajar untuk tumbuh, berkembang, dan percaya diri.</p>
+      <a class="contact-button" href="#kontak">Hubungi Kami</a>
+    </section>
+  </main>
+
+  <section class="about-section" id="tentang" aria-labelledby="about-title">
+    <div class="about-grid">
+      <div class="about-copy" data-reveal="left">
+        <h2 id="about-title">Tentang AKSARA</h2>
+        <span class="about-accent" aria-hidden="true"></span>
+        <div class="about-text">
+          <p>Bimbel AKSARA adalah tempat belajar yang dirancang untuk membantu siswa membangun kemampuan akademik sekaligus kepercayaan diri dalam belajar.</p>
+          <p>Melalui pembelajaran yang sederhana, interaktif, dan disesuaikan dengan kebutuhan siswa, AKSARA berusaha menciptakan suasana belajar yang nyaman agar setiap siswa dapat berkembang sesuai potensinya.</p>
+        </div>
+      </div>
+
+      <div class="about-visual" data-reveal="right" role="img" aria-label="Area untuk foto kegiatan belajar atau visual pendukung AKSARA">
+        <div class="visual-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+        </div>
+        <p class="visual-title">Gambar</p>
+        <p class="visual-description">foto kegiatan belajar</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule-section" id="jadwal" aria-labelledby="schedule-title">
+    <div class="schedule-inner">
+      <div class="schedule-header" data-reveal="up">
+        <div class="schedule-kicker"><span aria-hidden="true"></span>Jadwal Rutin</div>
+        <h2 id="schedule-title">Jadwal Belajar</h2>
+        <p>Waktu belajar yang teratur untuk membantu siswa belajar dengan nyaman.</p>
+      </div>
+
+      <div class="schedule-grid">
+        <article class="schedule-card schedule-card-blue" data-reveal="up">
+          <div class="schedule-card-top">
+            <span class="schedule-badge">Sesi Awal Pekan</span>
+            <span class="schedule-dot" aria-hidden="true"></span>
+          </div>
+          <div class="schedule-card-main">
+            <div>
+              <span class="schedule-label">Hari Belajar</span>
+              <h3>SENIN</h3>
+            </div>
+            <div class="schedule-subject">
+              <span class="schedule-label">Mata Pelajaran</span>
+              <h4>Calistung</h4>
+              <p>Membaca, menulis, dan berhitung dasar dengan metode interaktif &amp; menyenangkan.</p>
+            </div>
+          </div>
+          <div class="schedule-card-bottom">
+            <div>
+              <span class="schedule-label">Waktu</span>
+              <span class="schedule-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2"></path></svg>
+                13.00 – 14.30
+              </span>
+            </div>
+            <span class="schedule-duration">90 Menit</span>
+          </div>
+        </article>
+
+        <article class="schedule-card schedule-card-green" data-reveal="up">
+          <div class="schedule-card-top">
+            <span class="schedule-badge">Sesi Pertengahan Pekan</span>
+            <span class="schedule-dot" aria-hidden="true"></span>
+          </div>
+          <div class="schedule-card-main">
+            <div>
+              <span class="schedule-label">Hari Belajar</span>
+              <h3>KAMIS</h3>
+            </div>
+            <div class="schedule-subject">
+              <span class="schedule-label">Mata Pelajaran</span>
+              <h4>Bahasa Inggris</h4>
+              <p>Pengenalan kosakata, percakapan dasar, dan pemahaman cerita anak.</p>
+            </div>
+          </div>
+          <div class="schedule-card-bottom">
+            <div>
+              <span class="schedule-label">Waktu</span>
+              <span class="schedule-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2"></path></svg>
+                13.00 – 14.30
+              </span>
+            </div>
+            <span class="schedule-duration">90 Menit</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="report-section" id="perkembangan" aria-labelledby="report-title">
+    <div class="report-inner" data-reveal="up">
+      <h2 id="report-title">Report</h2>
+    </div>
+  </section>
+
+  <section class="contact-section" id="kontak" aria-labelledby="contact-title">
+    <div class="contact-inner">
+      <div class="contact-heading" data-reveal="up">
+        <div class="contact-kicker"><span aria-hidden="true"></span>Kontak Kami</div>
+        <h2 id="contact-title">Hubungi Kami</h2>
+        <p>Punya pertanyaan atau ingin mengetahui lebih lanjut tentang Bimbel AKSARA? Hubungi kami melalui platform berikut.</p>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card contact-whatsapp" data-reveal="up">
+          <div>
+            <div class="contact-card-top">
+              <span class="contact-badge"><span aria-hidden="true"></span>Respon Cepat</span>
+              <span class="contact-dot" aria-hidden="true"></span>
+            </div>
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.94 9.94 0 0 0-8.53 15.05L2 22l5.1-1.34A10 10 0 1 0 12.04 2Zm0 18.18a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.02.79.81-2.94-.2-.31a8.18 8.18 0 1 1 6.87 3.78Zm4.49-6.13c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.15-.25-.02-.39.11-.52.11-.11.25-.3.38-.45.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.49-.41-.42-.57-.43l-.49-.01c-.17 0-.45.06-.68.32-.23.25-.89.87-.89 2.12s.91 2.46 1.04 2.63c.13.17 1.79 2.73 4.33 3.83.6.26 1.07.42 1.43.54.6.19 1.15.16 1.59.1.48-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.11-.23-.17-.49-.3Z"/></svg>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>Hubungi kami secara langsung melalui WhatsApp untuk konsultasi pendaftaran, info jadwal, atau pertanyaan umum.</p>
+          </div>
+          <a class="contact-action" href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+            Chat Sekarang
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7 7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="contact-card contact-instagram" data-reveal="up">
+          <div>
+            <div class="contact-card-top">
+              <span class="contact-badge"><span aria-hidden="true"></span>Media Sosial</span>
+              <span class="contact-dot" aria-hidden="true"></span>
+            </div>
+            <div class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <h3>Instagram</h3>
+            <p>Ikuti informasi terbaru, tips belajar anak, dan dokumentasi kegiatan pembelajaran Bimbel AKSARA melalui Instagram.</p>
+          </div>
+          <a class="contact-action" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            Kunjungi Instagram
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7 7 7-7 7"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
+
+
+
